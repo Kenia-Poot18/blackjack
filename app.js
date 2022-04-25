@@ -47,7 +47,7 @@ function CrearBaraja(){
     
     function pedirCarta(){
         carta = baraja.shift();
-        const cartaHtml = $('#cartasJugador').html() + `<img src="/cartas/${carta}.png" alt=""/>`;
+        const cartaHtml = $('#cartasJugador').html() + `<img src="https://github.com/Kenia-Poot18/blackjack/blob/main/cartas/${carta}.png" alt=""/>`;
         $('#cartasJugador').html(cartaHtml);
         return carta;
     }
@@ -67,7 +67,7 @@ function CrearBaraja(){
     function cartaComputadora() {
        
         let carta = baraja.shift();
-        const cartaHtml = $('#cartasComputadora').html() + `<img src="/cartas/${carta}.png" alt="">`;
+        const cartaHtml = $('#cartasComputadora').html() + `<img src="https://github.com/Kenia-Poot18/blackjack/blob/main/cartas/${carta}.png" alt="">`;
    
         puntosComputadora += sumarPuntos(carta);
    
